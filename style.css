@@ -1,0 +1,160 @@
+.container{
+    display: grid;
+    
+    /* grid-template-columns: repeat(3,auto);
+    grid-gap:2rem */
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: 4fr 4fr 4fr;
+    grid-column-gap:1rem;
+    grid-row-gap:1rem;
+    margin: 50px;
+}
+
+
+
+
+.iteam{
+    border: 1px solid red;
+}
+
+#one{
+    width: auto;
+    height: 280px;
+    
+}
+
+.iteam:first-child{
+    grid-row-start: 1;
+    grid-row-end:4;
+    grid-column-gap:6rem;
+}
+
+#one h3{
+    text-align: center;
+    color: white;
+    background-color: #88b14b;
+    margin: 6px;
+    padding: 5px;
+}
+
+#Admin{
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 90px; 
+          
+}
+
+#one .btn{
+    margin-left: 90px;
+    margin-top:20px;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+background-color: rgba(136,177,75,1.00);
+border-color: rgba(84,209,241,1.00);
+display: inline-block;
+padding: 8px 35px;
+font-size: 16px;
+font-weight: normal;
+line-height: .6;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+touch-action: manipulation;
+cursor: pointer;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+margin-top: 10px;
+margin-bottom: 27px;
+}
+
+
+
+
+#two{
+  grid-row-start: 1;
+  grid-row-end:5;
+  border: 0px solid #C0BCBC;
+  box-shadow: 0px 0px 20px #CCCCDF;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: #FFFFFF;
+  margin-top: px;
+  width: auto;
+  height: 410px;
+}
+
+#two h3{
+    background-color: #d1af94;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#two ul{
+    padding-left: 30px;
+    
+}
+
+
+#two li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#two a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*two end*/
+
+#three{
+    grid-row-start:1 ;
+    grid-row-end:5;
+}
+
+#four{
+    grid-row-start:1 ;
+    grid-row-end: 10;
+}
+
+#five{
+    grid-column: 1 / span 3;
+    height: 185px;
+    margin-left: 25px;
+}
+
+#six{
+    grid-column: 1 / span 3;
+    height: 185px;
+    margin-left: 25px;
+}
+
+#seven{
+    border: 1px solid green;
+    
+    width: 400px;
+    height: 182px;
+   
+}
+
+
+#eight{
+    border: 1px solid green;
+    width: 400px;
+    height: 182px;
+    margin-top: -332px;
+    margin-left: 455px;
+}
+.vertical_dotted_line{
+  border-left:3px dotted rgba(0, 0, 0, 0.178) ;
+  position: relative;
+  height: 148px;
+  top: -168px;
+  left: 430px;
+}
